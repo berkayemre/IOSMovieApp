@@ -17,6 +17,7 @@
 		FAD9D4452DD3944200769A4F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D43A2DD3944200769A4F /* MainTabBarViewController.swift */; };
 		FAD9D4462DD3944200769A4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D43B2DD3944200769A4F /* SceneDelegate.swift */; };
 		FAD9D44B2DD3954F00769A4F /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D44A2DD3954F00769A4F /* CollectionViewTableViewCell.swift */; };
+		FAD9D44D2DD4DF9B00769A4F /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D44C2DD4DF9B00769A4F /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FAD9D43A2DD3944200769A4F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FAD9D43B2DD3944200769A4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAD9D44A2DD3954F00769A4F /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		FAD9D44C2DD4DF9B00769A4F /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD9D44A2DD3954F00769A4F /* CollectionViewTableViewCell.swift */,
+				FAD9D44C2DD4DF9B00769A4F /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				FAD9D4402DD3944200769A4F /* DownloadsViewController.swift in Sources */,
 				FAD9D4412DD3944200769A4F /* HomeViewController.swift in Sources */,
 				FAD9D44B2DD3954F00769A4F /* CollectionViewTableViewCell.swift in Sources */,
+				FAD9D44D2DD4DF9B00769A4F /* HeroHeaderUIView.swift in Sources */,
 				FAD9D4422DD3944200769A4F /* SearchViewController.swift in Sources */,
 				FAD9D4432DD3944200769A4F /* UpcomingViewController.swift in Sources */,
 				FAD9D4442DD3944200769A4F /* AppDelegate.swift in Sources */,
