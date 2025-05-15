@@ -70,7 +70,7 @@ class HeroHeaderUIView: UIView {
             downloadButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50),
             downloadButton.widthAnchor.constraint(equalToConstant: 120)
         ]
-        
+        //////////
         NSLayoutConstraint.activate(playButtonConstraints)
         NSLayoutConstraint.activate(downloadButtonConstraints)
     }
