@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3233C62DE37E1300E53C97 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3233C52DE37E1300E53C97 /* SearchResultsViewController.swift */; };
 		FAD9D43D2DD3944200769A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D4362DD3944200769A4F /* Assets.xcassets */; };
 		FAD9D43F2DD3944200769A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D4392DD3944200769A4F /* LaunchScreen.storyboard */; };
 		FAD9D4402DD3944200769A4F /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA3233C52DE37E1300E53C97 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		FAD9D4092DD250C900769A4F /* IOSMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		FAD9D42E2DD3944200769A4F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3233C72DE37E6F00E53C97 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D42E2DD3944200769A4F /* HomeViewController.swift */,
+				FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */,
+				FAD9D42F2DD3944200769A4F /* SearchViewController.swift */,
+				FAD9D4302DD3944200769A4F /* UpcomingViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		FA3233C82DE37E7B00E53C97 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FA3233C52DE37E1300E53C97 /* SearchResultsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		FAD9D4002DD250C900769A4F = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +103,8 @@
 		FAD9D4312DD3944200769A4F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FAD9D42E2DD3944200769A4F /* HomeViewController.swift */,
-				FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */,
-				FAD9D42F2DD3944200769A4F /* SearchViewController.swift */,
-				FAD9D4302DD3944200769A4F /* UpcomingViewController.swift */,
+				FA3233C82DE37E7B00E53C97 /* Core */,
+				FA3233C72DE37E6F00E53C97 /* General */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -239,6 +258,7 @@
 				FAD9D44D2DD4DF9B00769A4F /* HeroHeaderUIView.swift in Sources */,
 				FAD9D4422DD3944200769A4F /* SearchViewController.swift in Sources */,
 				FAD9D4432DD3944200769A4F /* UpcomingViewController.swift in Sources */,
+				FA3233C62DE37E1300E53C97 /* SearchResultsViewController.swift in Sources */,
 				FAD9D4982DDCB3EB00769A4F /* Extensions.swift in Sources */,
 				FAD9D4442DD3944200769A4F /* AppDelegate.swift in Sources */,
 				FAD9D4452DD3944200769A4F /* MainTabBarViewController.swift in Sources */,
