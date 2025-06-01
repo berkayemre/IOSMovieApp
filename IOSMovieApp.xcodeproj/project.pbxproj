@@ -11,6 +11,7 @@
 		FA3233CA2DE6261000E53C97 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3233C92DE6261000E53C97 /* YoutubeSearchResponse.swift */; };
 		FA3233CC2DE6396800E53C97 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3233CB2DE6396800E53C97 /* TitlePreviewViewController.swift */; };
 		FA3233CE2DE643D400E53C97 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3233CD2DE643D400E53C97 /* TitlePreviewViewModel.swift */; };
+		FA3233D12DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA3233CF2DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodeld */; };
 		FAD9D43D2DD3944200769A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D4362DD3944200769A4F /* Assets.xcassets */; };
 		FAD9D43F2DD3944200769A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D4392DD3944200769A4F /* LaunchScreen.storyboard */; };
 		FAD9D4402DD3944200769A4F /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */; };
@@ -37,6 +38,7 @@
 		FA3233C92DE6261000E53C97 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		FA3233CB2DE6396800E53C97 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		FA3233CD2DE643D400E53C97 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		FA3233D02DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSMovieAppModel.xcdatamodel; sourceTree = "<group>"; };
 		FAD9D4092DD250C900769A4F /* IOSMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		FAD9D42E2DD3944200769A4F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				FAD9D4392DD3944200769A4F /* LaunchScreen.storyboard */,
 				FAD9D43A2DD3944200769A4F /* MainTabBarViewController.swift */,
 				FAD9D43B2DD3944200769A4F /* SceneDelegate.swift */,
+				FA3233CF2DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodeld */,
 			);
 			path = IOSMovieApp;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				FA3233CA2DE6261000E53C97 /* YoutubeSearchResponse.swift in Sources */,
 				FAD9D4442DD3944200769A4F /* AppDelegate.swift in Sources */,
 				FA3233CE2DE643D400E53C97 /* TitlePreviewViewModel.swift in Sources */,
+				FA3233D12DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodeld in Sources */,
 				FAD9D4452DD3944200769A4F /* MainTabBarViewController.swift in Sources */,
 				FA3233CC2DE6396800E53C97 /* TitlePreviewViewController.swift in Sources */,
 				FAD9D4962DD90B5800769A4F /* Title.swift in Sources */,
@@ -513,6 +517,19 @@
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FA3233CF2DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA3233D02DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodel */,
+			);
+			currentVersion = FA3233D02DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodel */;
+			path = IOSMovieAppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FAD9D4012DD250C900769A4F /* Project object */;
 }
