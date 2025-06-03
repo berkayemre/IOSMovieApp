@@ -12,6 +12,7 @@
 		FA3233CC2DE6396800E53C97 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3233CB2DE6396800E53C97 /* TitlePreviewViewController.swift */; };
 		FA3233CE2DE643D400E53C97 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3233CD2DE643D400E53C97 /* TitlePreviewViewModel.swift */; };
 		FA3233D12DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA3233CF2DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodeld */; };
+		FA3233D32DEF678500E53C97 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3233D22DEF678500E53C97 /* DataPersistenceManager.swift */; };
 		FAD9D43D2DD3944200769A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D4362DD3944200769A4F /* Assets.xcassets */; };
 		FAD9D43F2DD3944200769A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D4392DD3944200769A4F /* LaunchScreen.storyboard */; };
 		FAD9D4402DD3944200769A4F /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */; };
@@ -39,6 +40,7 @@
 		FA3233CB2DE6396800E53C97 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		FA3233CD2DE643D400E53C97 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		FA3233D02DECBEA800E53C97 /* IOSMovieAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSMovieAppModel.xcdatamodel; sourceTree = "<group>"; };
+		FA3233D22DEF678500E53C97 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 		FAD9D4092DD250C900769A4F /* IOSMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9D42D2DD3944200769A4F /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		FAD9D42E2DD3944200769A4F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD9D4932DD8EBBB00769A4F /* APICaller.swift */,
+				FA3233D22DEF678500E53C97 /* DataPersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				FAD9D4A32DE0B0A600769A4F /* TitleTableViewCell.swift in Sources */,
 				FAD9D4402DD3944200769A4F /* DownloadsViewController.swift in Sources */,
 				FAD9D49C2DDE1E5900769A4F /* TitleCollectionViewCell.swift in Sources */,
+				FA3233D32DEF678500E53C97 /* DataPersistenceManager.swift in Sources */,
 				FAD9D4412DD3944200769A4F /* HomeViewController.swift in Sources */,
 				FAD9D44B2DD3954F00769A4F /* CollectionViewTableViewCell.swift in Sources */,
 				FAD9D4942DD8EBBB00769A4F /* APICaller.swift in Sources */,
